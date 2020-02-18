@@ -16,6 +16,7 @@ stays relatively constant. may vary periodically, but period is longer than a fe
 - tag
 - vin
 - make, model, color, etc.
+- delphi hierarchy
 - FSR data
 - custodian, fleet manager, etc.
 - (garaged) location
@@ -32,4 +33,8 @@ data changes are triggered by (infrequent) events
 when do we report this data?
 - monthly inventory
 - monthly fuel use & trends
-- monthly 
+- ILMS monthly upload
+- crash report - currently monthly*
+
+* crash reporting should be continuous and displayed for the past few years so that trends can be spotted and critical incidents interdicted
+
