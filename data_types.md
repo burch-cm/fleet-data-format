@@ -16,11 +16,15 @@ stays relatively constant. may vary periodically, but period is longer than a fe
 - tag
 - vin
 - make, model, color, etc.
-- delphi hierarchy
 - FSR data
-- custodian, fleet manager, etc.
+- custodian, etc.
 - (garaged) location
 - ownership (i.e., leased or agency-owned)
+
+### Master Data
+data for critical business processes which doesn't frequently change
+- Fleet Managers
+- Delphi hierarchy
 
 ### Event-Driven Data  
 data changes are triggered by (infrequent) events
@@ -36,5 +40,5 @@ when do we report this data?
 - ILMS monthly upload
 - crash report - currently monthly*
 
-* crash reporting should be continuous and displayed for the past few years so that trends can be spotted and critical incidents interdicted
+\* crash reporting should be continuous and displayed for the past few years so that trends can be spotted and critical incidents interdicted
 
